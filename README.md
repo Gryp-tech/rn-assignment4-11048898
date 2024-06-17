@@ -1,11 +1,21 @@
-# Sample Snack app
+# RN Assignment 4
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+## Components
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+### LoginScreen
+- Used for logging in the user.
+- Fields: Name, Email
+- Button: Login
+![WhatsApp Image 2024-06-17 at 04 47 10_5bd5b2d6](https://github.com/Gryp-tech/rn-assignment4-11048898/assets/170188389/1222e51e-4d4c-448b-8c21-e8605e3fdfc8)
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+### HomeScreen
+- Displays the user's name and email.
+- Shows Popular and Featured job cards.
+![WhatsApp Image 2024-06-17 at 04 52 12_7e8f9c32](https://github.com/Gryp-tech/rn-assignment4-11048898/assets/170188389/b472a3c0-308f-4ea4-9934-5bf2af6f2645)
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+### JobCard
+- Displays information about a job.
+- Props: title, company, logoUrl
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## Setup
+Describe how to set up and run your project.
